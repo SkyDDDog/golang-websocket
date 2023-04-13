@@ -1,0 +1,25 @@
+server:
+  jwtSecret: west2@2023
+  jwtHeader: Authorization
+  port: 4000
+
+mysql:
+  driverName: mysql
+  host: 127.0.0.1
+  port: 3306
+  database: demo04
+  username: root
+  password: 9738faq
+  charset: utf8mb4
+
+redis:
+  db: redis
+  addr: 127.0.0.1:6379
+  pwd:
+  number: 3
+
+mongo:
+  database: demo04
+  address: 127.0.0.1
+  password: 
+  port: 27017
